@@ -1,10 +1,10 @@
-### **Stealth Game Analytics Project**
+# ***Stealth Game Analytics Project***
 
 
 
 
 
-1. #### What this project is about
+1. ### **What this project is about**
 
 
 
@@ -26,7 +26,7 @@ But the main focus wasn’t just the gameplay — it was tracking and analyzing 
 
 
 
-#### 2\. What the game does
+### 2\. **What the game does**
 
 
 
@@ -56,7 +56,7 @@ Run\_1,MissionFailed,DetectionZone,Failed
 
 
 
-#### 3\. How the system works
+### 3\. **How the system works**
 
 
 
@@ -76,7 +76,7 @@ I built a simple pipeline:
 
 
 
-#### 4\. What I analyzed
+### 4\. **What I analyzed**
 
 
 
@@ -96,7 +96,7 @@ Using SQL, I answered questions like:
 
 
 
-#### 5\. Example insights
+### 5\. **Example insights**
 
 
 
@@ -110,7 +110,7 @@ Using SQL, I answered questions like:
 
 
 
-#### 6\. Tech used
+### 6\. **Tech used**
 
 
 
@@ -124,7 +124,7 @@ Using SQL, I answered questions like:
 
 
 
-#### 7\. What I learned
+### 7\. **What I learned**
 
 
 
@@ -138,7 +138,7 @@ Using SQL, I answered questions like:
 
 
 
-#### 8\. Why this project matters
+### 8\. **Why this project matters**
 
 
 
@@ -158,7 +158,7 @@ Instead of just making a game, I built a system to:
 
 
 
-#### 9\. Next steps (if I continue this)
+### 9\. **Next steps**
 
 
 
