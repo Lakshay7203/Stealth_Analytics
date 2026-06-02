@@ -1,17 +1,30 @@
-SessionID,EventType,LevelName,TimeSinceStart,AreaName,GuardID,Result,
-Run_1,SessionStart,Lvl_ThirdPerson,0,StartArea,,InProgress,
-Run_1,ObjectiveCompleted,Lvl_ThirdPerson,4.9008,KeycardRoom,,KeycardPicked,
-Run_1,ObjectiveCompleted,Lvl_ThirdPerson,6.867477,ControlRoom,,ConsoleActivated,
-Run_1,Mission Completed,Lvl_ThirdPerson,14.167056,Exit Zone,,Success,
-Run_2,SessionStart,Lvl_ThirdPerson,0,StartArea,,InProgress,
-Run_2,Guard Detected Player,Lvl_ThirdPerson,12.014585,,,Detected,
-Run_2,Mission Failed,Lvl_ThirdPerson,12.014585,DetectionZone,,Failed,
-Run_3,SessionStart,Lvl_ThirdPerson,0,StartArea,,InProgress,
-Run_3,ObjectiveCompleted,Lvl_ThirdPerson,4.889771,KeycardRoom,,KeycardPicked,
-Run_3,ObjectiveCompleted,Lvl_ThirdPerson,7.856558,ControlRoom,,ConsoleActivated,
-Run_3,Guard Detected Player,Lvl_ThirdPerson,20.085068,,,Detected,
-Run_3,Mission Failed,Lvl_ThirdPerson,20.085068,DetectionZone,,Failed,
-Run_4,SessionStart,Lvl_ThirdPerson,0,StartArea,,InProgress,
-Run_4,ObjectiveCompleted,Lvl_ThirdPerson,21.313549,KeycardRoom,,KeycardPicked,
-Run_4,ObjectiveCompleted,Lvl_ThirdPerson,23.098162,ControlRoom,,ConsoleActivated,
-Run_4,Mission Completed,Lvl_ThirdPerson,30.446685,Exit Zone,,Success,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,SessionID,EventType,LevelName,TimeSinceStart ,AreaName,GuardID,Result
+,,,,,,,,Run_1,SessionStart,Lvl_ThirdPerson,0.00,StartArea,,InProgress
+,,,,,,,,Run_1,ObjectiveCompleted,Lvl_ThirdPerson,4.90,KeycardRoom,,KeycardPicked
+,,,,,,,,Run_1,ObjectiveCompleted,Lvl_ThirdPerson,6.87,ControlRoom,,ConsoleActivated
+,,,,,,,,Run_1,Mission Completed,Lvl_ThirdPerson,14.17,Exit Zone,,Success
+,,,,,,,,Run_2,SessionStart,Lvl_ThirdPerson,0.00,StartArea,,InProgress
+,,,,,,,,Run_2,Guard Detected Player,Lvl_ThirdPerson,12.01,,,Detected
+,,,,,,,,Run_2,Mission Failed,Lvl_ThirdPerson,12.01,DetectionZone,,Failed
+,,,,,,,,Run_3,SessionStart,Lvl_ThirdPerson,0.00,StartArea,,InProgress
+,,,,,,,,Run_3,ObjectiveCompleted,Lvl_ThirdPerson,4.89,KeycardRoom,,KeycardPicked
+,,,,,,,,Run_3,ObjectiveCompleted,Lvl_ThirdPerson,7.86,ControlRoom,,ConsoleActivated
+,,,,,,,,Run_3,Guard Detected Player,Lvl_ThirdPerson,20.09,,,Detected
+,,,,,,,,Run_3,Mission Failed,Lvl_ThirdPerson,20.09,DetectionZone,,Failed
+,,,,,,,,Run_4,SessionStart,Lvl_ThirdPerson,0.00,StartArea,,InProgress
+,,,,,,,,Run_4,ObjectiveCompleted,Lvl_ThirdPerson,21.31,KeycardRoom,,KeycardPicked
+,,,,,,,,Run_4,ObjectiveCompleted,Lvl_ThirdPerson,23.10,ControlRoom,,ConsoleActivated
+,,,,,,,,Run_4,Mission Completed,Lvl_ThirdPerson,30.45,Exit Zone,,Success

@@ -1,172 +1,298 @@
 # ***Stealth Game Analytics Project***
 
+### 
 
+### **1. What this project is about**
 
+### 
 
+##### **I built a small stealth game prototype in Unreal Engine where the player:**
 
-1. ### **What this project is about**
+##### 
 
+##### **- Picks up a keycard**
 
+##### **- Activates a console**
 
-I built a small stealth game in Unreal Engine where the player:
+##### **- Avoids guard detection**
 
+##### **- Reaches the exit zone**
 
+##### 
 
-\-Picks up a keycard
+##### **The main focus of this project was not just gameplay. I wanted to build a simple analytics pipeline that tracks player behavior and turns gameplay events into useful insights.**
 
-\-Activates a console
+##### 
 
-\-Avoids a guard
+##### **This project connects my game development background with data analytics by using real gameplay events as data.**
 
-\-Reaches the exit
+### 
 
+### **---**
 
+### 
 
-But the main focus wasn’t just the gameplay — it was tracking and analyzing player behavior.
+### **2. What the game tracks**
 
+### 
 
+##### **Each time the game is played, it logs important gameplay events such as:**
 
-### 2\. **What the game does**
+##### 
 
+##### **- Session start**
 
+##### **- Objective completion**
 
-Each time I play the game, it logs everything important:
+##### **- Guard detection**
 
+##### **- Mission success**
 
+##### **- Mission failure**
 
-\-When the session starts
+##### 
 
-\-When objectives are completed
+##### **Example of recorded gameplay data:**
 
-\-When the guard detects the player
+##### 
 
-\-Whether the mission succeeds or fails
+##### **Run\_1,ObjectiveCompleted,KeycardRoom,KeycardPicked**  
 
+##### **Run\_1,GuardDetectedPlayer,DetectionZone,Detected**  
 
+##### **Run\_1,MissionFailed,DetectionZone,Failed**  
 
-Example of what gets recorded:
+### 
 
+### **---**
 
+### 
 
-Run\_1,ObjectiveCompleted,KeycardRoom,KeycardPicked
+### **3. How the system works**
 
-Run\_1,GuardDetectedPlayer,DetectionZone,Detected
+### 
 
-Run\_1,MissionFailed,DetectionZone,Failed
+##### **I built the project using this pipeline:**
 
+##### 
 
+##### **Unreal Engine → Event Logging → CSV File → MySQL → SQL Analysis → Power BI Dashboard**
 
-### 3\. **How the system works**
+##### 
 
+##### **Process:**
 
+##### 
 
-I built a simple pipeline:
+##### **- Unreal Engine logs gameplay events during each run**
 
+##### **- Gameplay data is exported into CSV files**
 
+##### **- CSV data is imported into MySQL**
 
-\-Game → Event Logging → CSV File → MySQL → SQL Analysis
+##### **- SQL queries are used to analyze player behavior**
 
-\-Unreal Engine logs events during gameplay
+##### **- Power BI is used to visualize the results in a dashboard**
 
-\-Data is saved as CSV
+### 
 
-\-CSV is imported into MySQL
+### **---**
 
-\-SQL is used to analyze player behavior
+### 
 
+### **4. What I analyzed**
 
+### 
 
-### 4\. **What I analyzed**
+##### **Using SQL and Power BI, I analyzed questions such as:**
 
+##### 
 
+##### **- How many runs were completed?**
 
-Using SQL, I answered questions like:
+##### **- How many missions succeeded vs failed?**
 
+##### **- What was the overall success rate?**
 
+##### **- How often did the guard detect the player?**
 
-\-How many players succeed vs fail?
+##### **- Where did players fail most often?**
 
-\-Where do players fail the most?
+##### **- How many objectives were completed?**
 
-\-How often do guards detect players?
+##### **- Which gameplay events happened most frequently?**
 
-\-How long does it take to complete objectives?
+### 
 
-\-Do players fail even after completing objectives?
+### **---**
 
+### 
 
+### **5. Power BI Dashboard**
 
-### 5\. **Example insights**
+### 
 
+##### **In Version 2 of this project, I added a Power BI dashboard to visualize the gameplay analytics data.**
 
+##### 
 
-\-Most failures happen in the DetectionZone
+##### **The dashboard includes:**
 
-\-Players who get detected almost always fail
+##### 
 
-\-Some objectives take longer to reach than others
+##### **- Total gameplay runs**
 
-\-Successful runs usually have fewer detection events
+##### **- Successful missions**
 
+##### **- Failed missions**
 
+##### **- Success rate**
 
-### 6\. **Tech used**
+##### **- Guard detection count**
 
+##### **- Gameplay events breakdown**
 
+##### **- Failures by area**
 
-\-Unreal Engine 5 (Blueprints and C++)
+##### **- Objective completion count**
 
-\-CSV data export
+##### **- Mission outcomes**
 
-\-MySQL
+##### 
 
-\-SQL (data analysis)
+##### **This helped turn raw gameplay event data into a clear visual report.**
 
+### 
 
+### **---**
 
-### 7\. **What I learned**
+### 
 
+### **6. Example insights**
 
+### 
 
-\-How to connect gameplay systems with data tracking
+##### **From the analysis, I found that:**
 
-\-How to structure event-based data
+##### 
 
-\-How to analyze player behavior using SQL
+##### **- Most mission failures happened in the DetectionZone**
 
-\-How small gameplay decisions affect player success
+##### **- Guard detection was strongly connected to mission failure**
 
+##### **- ObjectiveCompleted was the most frequent gameplay event**
 
+##### **- Some players completed both objectives before failing**
 
-### 8\. **Why this project matters**
+##### **- Successful runs usually had fewer detection events**
 
+### 
 
+### **---**
 
-This project shows how game development + data analysis can work together.
+### 
 
+### **7. Tech used**
 
+### 
 
-Instead of just making a game, I built a system to:
+##### **- Unreal Engine 5**
 
+##### **- Blueprints and C++**
 
+##### **- CSV data export**
 
-\-understand player behavior
+##### **- MySQL**
 
-\-find difficulty issues
+##### **- SQL**
 
-\-make data-driven decisions
+##### **- Power BI**
 
+##### **- Excel**
 
+### 
 
-### 9\. **Next steps**
+### **---**
 
+### 
 
+### **8. What I learned**
 
-\-Add more objectives and larger levels
+### 
 
-\-Track player movement / pathing
+##### **Through this project, I learned:**
 
-\-Build a dashboard (Power BI)
+##### 
 
-\-Improve guard AI
+##### **- How to connect gameplay systems with data tracking**
+
+##### **- How to structure event-based gameplay data**
+
+##### **- How to export game data into CSV files**
+
+##### **- How to import and analyze data using MySQL**
+
+##### **- How to write SQL queries for gameplay analysis**
+
+##### **- How to build a Power BI dashboard from gameplay data**
+
+##### **- How data can help identify gameplay patterns and difficulty issues**
+
+### 
+
+### **---**
+
+### 
+
+### **9. Why this project matters**
+
+### 
+
+##### **This project shows how game development and data analytics can work together.**
+
+##### 
+
+##### **Instead of only creating a stealth gameplay prototype, I built a system that can:**
+
+##### 
+
+##### **- Track player behavior**
+
+##### **- Identify failure points**
+
+##### **- Measure mission success**
+
+##### **- Analyze objective completion**
+
+##### **- Support data-driven gameplay decisions**
+
+##### 
+
+##### **This project helped me understand how analytics can be used to improve gameplay design and player experience.**
+
+### 
+
+### **---**
+
+### 
+
+### **10. Next steps**
+
+### 
+
+##### **Future improvements may include:**
+
+##### 
+
+##### **- Add more objectives and larger levels**
+
+##### **- Track player movement and pathing**
+
+##### **- Add more enemy/guard behavior data**
+
+##### **- Improve guard AI**
+
+##### **- Add more advanced Power BI visuals**
+
+##### **- Build a larger dataset with more gameplay runs**
 
